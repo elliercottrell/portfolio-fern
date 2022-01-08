@@ -1,18 +1,35 @@
+:root {
+  --branding-color: #718a7b;
+  --background-color: #2d2d2e;
+  --highlight-color: #f7f2f0;
+  --main-type-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  --secondary-type-family: "Oooh Baby";
+}
+
 body {
-  background: #2d2d2e;
+  background: var(--background-color);
   border: 5px solid #f7f2f0;
 }
 
 h1 {
-  color: #718a7b;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--branding-color);
+  font-family: var(--main-type-family);
   letter-spacing: 20px;
+  font-size: 40px;
   text-align: center;
   margin-top: 200px;
 }
+
 p {
-  font-family: "Oooh Baby";
-  color: #f7f2f0;
+  font-family: var(--secondary-type-family);
+  color: var(--highlight-color);
   letter-spacing: 2px;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
 }
