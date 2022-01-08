@@ -12,6 +12,19 @@ body {
   border: 5px solid #f7f2f0;
 }
 
+.menu {
+  float: right;
+  padding: 13px;
+}
+.menu a {
+  color: var(--branding-color);
+  text-decoration: none;
+  margin: 10px;
+  font-family: var(--main-type-family);
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 10px;
+}
 h1 {
   color: var(--branding-color);
   font-family: var(--main-type-family);
@@ -21,11 +34,50 @@ h1 {
   margin-top: 200px;
 }
 
+h2 {
+  color: var(--highlight-color);
+  font-family: var(--main-type-family);
+  letter-spacing: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 p {
   font-family: var(--secondary-type-family);
   color: var(--highlight-color);
+  letter-spacing: 3px;
+}
+
+.hero {
+  margin: 200px;
+}
+.kio-image {
+  float: right;
+  padding: 10px;
+}
+.kio-text {
+  padding-right: 60px;
+}
+.kio-button {
+  background: var(--background-color);
+  border: solid 1px var(--highlight-color);
+  color: var(--branding-color);
+  padding: 13px;
+  text-decoration: none;
+  font-family: var(--main-type-family);
   letter-spacing: 2px;
-  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.kio-button:hover {
+  opacity: 30%;
+  color: var(--highlight-color);
+}
+
+.bracken-image {
+  float: left;
+  padding: 10px;
 }
 
 @media (max-width: 900px) {
