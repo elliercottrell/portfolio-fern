@@ -4,7 +4,7 @@
   --highlight-color: #f7f2f0;
   --main-type-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
-  --secondary-type-family: "Oooh Baby";
+  --secondary-type-family: "Garamond";
 }
 
 body {
@@ -46,7 +46,8 @@ h2 {
 p {
   font-family: var(--secondary-type-family);
   color: var(--highlight-color);
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  font-size: 13px;
 }
 
 .hero {
