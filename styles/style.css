@@ -88,6 +88,41 @@ p {
   text-align: right;
 }
 
+.footer {
+  margin: 100px;
+}
+.foot {
+  margin-bottom: 20px;
+  background-color: var(--highlight-color);
+  padding: 10px;
+  margin: 0;
+  margin-right: -100;
+}
+.erc-ink,
+.insta {
+  color: var(--background-color);
+  text-decoration: none;
+  font-style: italic;
+  font-size: 13px;
+}
+.erc-ink:hover,
+.insta:hover {
+  color: var(--branding-color);
+  opacity: 50%;
+}
+
+.insta {
+  float: right;
+}
+
+h3 {
+  color: var(--branding-color);
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
