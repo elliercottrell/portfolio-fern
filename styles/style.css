@@ -9,7 +9,7 @@
 
 body {
   background: var(--background-color);
-  border: 5px solid #f7f2f0;
+  border: 6px solid #f7f2f0;
 }
 
 .menu {
@@ -29,7 +29,7 @@ h1 {
   color: var(--branding-color);
   font-family: var(--main-type-family);
   letter-spacing: 20px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   margin-top: 200px;
 }
@@ -40,6 +40,7 @@ h2 {
   letter-spacing: 10px;
   font-size: 20px;
   text-transform: uppercase;
+  margin-top: 60px;
 }
 
 p {
@@ -54,6 +55,7 @@ p {
 .kio-image {
   float: right;
   padding: 10px;
+  margin-top: 30px;
 }
 .kio-text {
   padding-right: 60px;
@@ -78,10 +80,16 @@ p {
 .bracken-image {
   float: left;
   padding: 10px;
+  margin-top: 30px;
+}
+
+.bracken-text {
+  padding-left: 60px;
+  text-align: right;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
