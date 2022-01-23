@@ -164,3 +164,9 @@ p {
     font-size: 40px;
   }
 }
+
+@media (min-width: 900px) {
+  .work-images {
+    max-width: 900px;
+  }
+}
