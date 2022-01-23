@@ -68,15 +68,15 @@ p {
 .hero {
   margin: 100px;
 }
-.kio-image {
+.primary-image {
   float: right;
   padding: 10px;
   margin-top: 30px;
 }
-.kio-text {
+.primary-text {
   padding-right: 60px;
 }
-.kio-button {
+.primary-button {
   background: var(--background-color);
   border: solid 1px var(--highlight-color);
   color: var(--branding-color);
@@ -88,24 +88,27 @@ p {
   font-size: 13px;
 }
 
-.kio-button:hover {
+.primary-button:hover {
   opacity: 30%;
   color: var(--highlight-color);
 }
 
-.bracken-image {
+.secondary-image {
   float: left;
   padding: 10px;
   margin-top: 30px;
 }
 
-.bracken-text {
+.secondary-text {
   padding-left: 60px;
   text-align: right;
 }
 
 .about-hero {
   padding: 60px;
+}
+
+.center-container {
 }
 
 .work-with-me {
@@ -162,11 +165,5 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
-  }
-}
-
-@media (min-width: 500px) {
-  .about-image {
-    width: 400px;
   }
 }
