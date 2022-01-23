@@ -12,6 +12,18 @@ body {
   border: 6px solid #f7f2f0;
 }
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+.logo {
+  max-width: 60px;
+}
 .menu {
   float: right;
   padding: 13px;
