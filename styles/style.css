@@ -42,6 +42,21 @@ h2 {
   text-transform: uppercase;
   margin-top: 60px;
 }
+h3 {
+  color: var(--branding-color);
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+h4 {
+  color: var(--highlight-color);
+  font-family: var(--main-type-family);
+  letter-spacing: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
 
 p {
   font-family: var(--secondary-type-family);
@@ -93,6 +108,30 @@ p {
   padding: 60px;
 }
 
+.work-with-me {
+  text-align: center;
+  padding: 40px;
+  background: rgb(247, 242, 240, 20%);
+  margin: 100, 100;
+}
+.work-button {
+  background: var(--background-color);
+  opacity: 50%;
+  border: solid 1px var(--highlight-color);
+  color: var(--highlight-color);
+  padding: 13px;
+  text-decoration: none;
+  font-family: var(--main-type-family);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.work-button:hover {
+  opacity: 30%;
+  color: var(--highlight-color);
+}
+
 .footer {
   margin: 100px;
 }
@@ -118,14 +157,6 @@ p {
 
 .insta {
   float: right;
-}
-
-h3 {
-  color: var(--branding-color);
-  font-size: 15px;
-  line-height: 20px;
-  font-style: italic;
-  text-align: center;
 }
 
 @media (max-width: 900px) {
