@@ -132,6 +132,10 @@ p {
   color: var(--highlight-color);
 }
 
+.display-insta {
+  display: block;
+  text-align: center;
+}
 .footer {
   margin: 100px;
 }
