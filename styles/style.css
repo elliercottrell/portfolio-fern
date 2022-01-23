@@ -89,6 +89,10 @@ p {
   text-align: right;
 }
 
+.about-hero {
+  padding: 60px;
+}
+
 .footer {
   margin: 100px;
 }
@@ -127,5 +131,11 @@ h3 {
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
+  }
+}
+
+@media (min-width: 500px) {
+  .about-image {
+    width: 400px;
   }
 }
