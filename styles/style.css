@@ -22,7 +22,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 47px;
+  line-height: 32px;
   margin-left: 10px;
 }
 
@@ -45,8 +45,14 @@ nav a:hover {
   color: var(--highlight-color);
   opacity: 30%;
 }
+
 .logo {
+  max-height: 30px;
+}
+
+.logo-1 {
   max-height: 50px;
+  margin-top: -8px;
 }
 
 h1 {
