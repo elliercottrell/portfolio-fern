@@ -11,6 +11,9 @@ body {
   background: var(--background-color);
   border: 6px solid #f7f2f0;
 }
+nav {
+  padding: 20px;
+}
 
 nav ul {
   padding: 0;
@@ -19,24 +22,28 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
+  line-height: 45px;
+  margin-left: 10px;
 }
 
-.logo {
-  max-width: 60px;
-}
-.menu {
-  float: right;
-  padding: 13px;
-}
-.menu a {
+nav a {
   color: var(--branding-color);
-  text-decoration: none;
-  margin: 10px;
   font-family: var(--main-type-family);
   font-style: italic;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
+
+nav a:hover {
+  color: var(--highlight-color);
+  opacity: 30%;
+}
+.logo {
+  max-width: 60px;
+}
+
 h1 {
   color: var(--branding-color);
   font-family: var(--main-type-family);
